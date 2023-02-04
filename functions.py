@@ -18,6 +18,16 @@ print(getSum(3, 4))
 num = getSum(4,5)
 print(num)
 
+def max_num(a,b,c):
+    if a>=b and a>=c:
+        return a
+    elif b>=a and b>=c:
+        return b
+    else:
+        return c
+
+print(max_num(5,8,1))
+
 # A LAMBDA function is a small anonymous function
 # can only take any number of arguments
 # but can have only one expression

@@ -29,11 +29,23 @@ print(s.upper())
 # Make all lowercase
 print(s.lower())
 
+# To check for upper case
+print(s.upper().isupper())
+
+# To check for lower case
+print(s.islower())
+
 # Swap Case
 print(s.swapcase())
 
 # Get length
 print(len(s))
+
+# Get character at index
+print(s[5])
+
+# Get index of character
+print(s.index('h'))
 
 # Replace
 print(s.replace('World', 'everyone'))
@@ -62,3 +74,7 @@ print(s.isalpha())
 
 # Is all numeric
 print(s.isnumeric())
+
+# print quotation marks
+print("Abc\"xyz")
+ 

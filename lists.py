@@ -3,7 +3,7 @@
 # they are like arrays
 
 # Create list
-numbers = [1,2,3,4,5]
+numbers = [1,2,3,4,5,4,7,4]
 fruits = ['Apples','Oranges','Grapes','Pears']
 
 # Use constructor
@@ -13,6 +13,12 @@ print(numbers, numbers2)
 
 # Get a value
 print(fruits[1])
+
+# To print all the elements after a specific index
+print(fruits[2:])
+
+# To print all the elements in range of index
+print(fruits[1:3])
 
 # Get length
 print(len(fruits))
@@ -51,3 +57,17 @@ print(fruits)
 
 fruits[0]='Apples'
 print(fruits)
+
+# To join 2 lists
+numbers.extend(fruits)
+print(numbers)
+
+# To get index
+print(numbers.index(5))
+
+# To count the occurence
+print(numbers.count(4))
+
+# To make copy of a list
+fruits2 = fruits.copy()
+print(fruits2)

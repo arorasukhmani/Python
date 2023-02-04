@@ -2,7 +2,7 @@
 
 # Create class
 class User:
-    # Constructor               self is like this
+    # Constructor               self is like 'this' keyword
     def __init__(self, name, email, age):
         self.name = name
         self.email = email

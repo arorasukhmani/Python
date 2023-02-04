@@ -1,5 +1,6 @@
 # A Tuple is a collection which is ordered and unchangeable
 # Allows duplicate memebers
+# Tuple is a type of data structure
  
 
 # Create tuple
@@ -9,6 +10,7 @@ fruits=('Apples', 'Oranges','Grapes')
 fruits2=tuple(('Apples', 'Oranges','Grapes'))
 
 print(fruits,fruits2)
+print(fruits[1])
 
 fruits3=('Mangoes')
 print(fruits3,type(fruits3))

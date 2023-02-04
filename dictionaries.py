@@ -1,5 +1,6 @@
-# A dectionary is a collection which is unordered, changeable & indexed
+# A dictionary is a collection which is unordered, changeable & indexed
 # No duplicate members
+# key value pair      key=word;  value=definition
 
 # Create
 person ={
