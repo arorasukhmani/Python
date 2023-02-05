@@ -1,8 +1,12 @@
 # Strings in python are surrounded by either single or double quotation marks. 
- 
+# strings immutable i.e existing string cannot be changed
+
 name = 'Zed'
 age = 28
 sample = 'hy there! wassup?'
+
+# to print entire string
+print(sample[:])
 
 # to print acc to index
 print(name[0])
@@ -22,6 +26,9 @@ print(sample[2:8] + sample[10:])
 
 # Concatenate
 print('Hello, my name is '+ name)
+
+# repetition
+print(5 * 'fck')
 
 #print('Hello, my name is '+ name + 'and I am ' + age + ' years old.') // will give an error
 print('Hello, my name is '+ name + 'and I am ' + str(age) + ' years old.')
@@ -94,3 +101,9 @@ print(s.isnumeric())
 # print quotation marks
 print("Abc\"xyz")
  
+# "in" is a boolean operator that takes two strings
+# return True is first appears as a substring in second
+word = "banana"
+print("a" in "banana")
+print("a" in word)
+print("f" in "banana")

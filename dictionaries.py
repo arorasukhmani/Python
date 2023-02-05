@@ -1,6 +1,9 @@
 # A dictionary is a collection which is unordered, changeable & indexed
 # No duplicate members
 # key value pair      key=word;  value=definition
+# also known as ASSOCIATIVE ARRAYS  or  HASH TABLES
+# values of dictionary can be of any type
+# keys must be of an immutable data type(strings,numbers,tuples)
 
 # Create
 person ={
@@ -44,6 +47,9 @@ print(person)
 # Clear dict
 person.clear()
 print(person)
+
+# to del dictionary
+del person
 
 # Get len
 print(len(person3))
