@@ -2,12 +2,28 @@
  
 name = 'Zed'
 age = 28
+sample = 'hy there! wassup?'
+
+# to print acc to index
+print(name[0])
+
+# to print last character
+print(sample[-1])
+
+# to print second last character
+print(sample[-2])
+
+# to print a range of characters
+print(sample[2:8])
+print(sample[2:])
+print(sample[:8])
+print(sample[-2:])
+print(sample[2:8] + sample[10:])
 
 # Concatenate
 print('Hello, my name is '+ name)
 
 #print('Hello, my name is '+ name + 'and I am ' + age + ' years old.') // will give an error
-
 print('Hello, my name is '+ name + 'and I am ' + str(age) + ' years old.')
 
 # Arguments by position

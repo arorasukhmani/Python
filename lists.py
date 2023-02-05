@@ -9,10 +9,15 @@ fruits = ['Apples','Oranges','Grapes','Pears']
 # Use constructor
 numbers2 = list((6,7,8,9))
 
+# To print all the elements
 print(numbers, numbers2)
+print(fruits[:])
 
 # Get a value
 print(fruits[1])
+
+# to get index
+print(fruits.index('Grapes'))
 
 # To print all the elements after a specific index
 print(fruits[2:])
@@ -71,3 +76,7 @@ print(numbers.count(4))
 # To make copy of a list
 fruits2 = fruits.copy()
 print(fruits2)
+
+# to remove all the elts of the list
+numbers2.clear()
+print(numbers2)

@@ -21,6 +21,9 @@ print(fruits4,type(fruits4))
 
 # get a value
 print(fruits[1])
+print(fruits[1:])
+print(fruits[::-1])
+print(fruits[1:3])
 
 # cannot chnage the value
 # fruits[0]='pears'
@@ -32,34 +35,7 @@ del fruits2
 # To get length
 print(len(fruits))
 
-
-# A SET is a collection which is unordered and unindexed
-# No duplicate members
-
-# Create a Set
-fruits_set = {'Apples','Oranges','Mangoe'}
-print(fruits_set)
-
-# Check if in set
-print('Apples' in fruits_set)
-
-# Add to set
-fruits_set.add('Grape')
-print(fruits_set)
-
-# Will not add duplicates
-fruits_set.add('Apples')
-print(fruits_set)
-
-# Remove from set
-fruits_set.remove('Grape')
-print(fruits_set)
-
-# Clear set
-fruits_set.clear()
-print(fruits_set)
-
-# Delete a set
-del fruits_set
-print(fruits_set)
+list1 = [1,6,7,8,0]
+# converting list into tuple
+print(tuple(list1))
 

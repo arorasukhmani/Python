@@ -20,6 +20,13 @@ print(sqrt(49))
 # exponent number
 print(2**3)   #2^3
 
+# Discards the fractional part
+print(16//3)
+
+# The last printed value is stored in an _
+# c = 25 +_
+# print(c)
+
 def raise_to_power(base_num, pow_num):
     result=1
     for index in range(pow_num):
